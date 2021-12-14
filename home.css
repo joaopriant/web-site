@@ -35,23 +35,3 @@ color:#fff;
 moz-box-shadow:0 3px 10px 0 #CCC;
 text-shadow:0px 0px 5px #033504 ;
 }
-
-/*esconder a sub barra*/
-.menu li  ul{
-position:absolute;
-top:43px;
-left:0;
-background-color:#fff;
-display:none;
-}
-
-/*drop da sub barra*/
-.menu li:hover ul, .menu li.over ul{display:block;}
-.menu li ul li{
-border:1px solid #033504;
-display:block;
-width:146px;
-}
-.menu{
-	color: #FFFFFF;
-}
